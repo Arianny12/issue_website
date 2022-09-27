@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Merriweather&family=Playfair+Display:wght@600&display=swap');
+
+* {box-sizing: border-box;}
+
+body{
+  background-color:  #9CC0E7;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.mainContainer{
+  font-size: 15pt;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0px;
+}
+
+.menu{
+  font-family: 'Merriweather', serif;
+  position: fixed;
+  font-size: 15pt;
+  height: 100%;
+  top:0px;
+  left:0px;
+  padding: 15px;
+
+}
+
+a, a:visited, a:active{
+  color: blue;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: red;
+}
+
+.headers{ font-family: 'Lora', serif;
+}
+
+.images{
+  width: 250px;
+  height: 250px;
+  padding: 15px;
+}
+
+.meImage{
+  width: 250px;
+  height: 250px;
+  padding: 15px;
+
+  /*float: right;
+  margin-right: 15px;
+  */
+}
+
+.logo{
+  position: fixed;
+  right: 25px;
+  top: 25px;
+}
+
+.columns{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0%;
+  width:100%;
+}
+
+.content{
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0px;
+  padding: 0px;
+  width:49%;
+}
